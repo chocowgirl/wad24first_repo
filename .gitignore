@@ -1,0 +1,13 @@
+# password.txt
+# above ignores all the files named password.txt
+
+# /password.txt
+# above ignores only the file named password.txt that is directly attached to the root folder
+
+
+
+*.txt
+# the above to do it for all the files that end in .txt:
+
+
+# NOTE!  If you've already committed a file (like version.txt) doing this won't ignore the committed files
